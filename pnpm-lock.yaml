@@ -4,10 +4,10 @@ importers:
 
   .:
     specifiers:
-      prettier: latest
+      eslint-config-elegante-base: workspace:^1.0.0
       turbo: latest
     devDependencies:
-      prettier: 2.6.2
+      eslint-config-elegante-base: link:packages/eslint-config-base
       turbo: 1.2.14
 
   apps/docs:

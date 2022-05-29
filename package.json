@@ -9,6 +9,7 @@
     "lint": "turbo run lint"
   },
   "devDependencies": {
+    "eslint-config-elegante-base": "workspace:*",
     "turbo": "latest"
   },
   "engines": {
