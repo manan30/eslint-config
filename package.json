@@ -6,7 +6,8 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "turbo run lint"
+    "lint:check": "turbo run lint:check",
+    "lint:fix": "turbo run lint:fix"
   },
   "devDependencies": {
     "eslint-config-elegante-base": "workspace:*",

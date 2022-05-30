@@ -28,7 +28,10 @@
     "type": "git",
     "directory": "packages/eslint-config-base"
   },
-  "scripts": {},
+  "scripts": {
+    "lint:check": "pnpm exec eslint . --max-warnings 0",
+    "lint:fix": "pnpm exec eslint --fix ."
+  },
   "devDependencies": {
     "eslint": "^7.32.0 || ^8.2.0",
     "eslint-config-prettier": "^8.5.0",

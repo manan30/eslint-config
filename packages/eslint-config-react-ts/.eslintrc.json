@@ -19,6 +19,11 @@
     "sourceType": "module"
   },
   "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "rules": {
     "no-console": "warn",
     "react/prop-types": "off"

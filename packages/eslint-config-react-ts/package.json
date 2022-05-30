@@ -29,7 +29,10 @@
     "type": "git",
     "directory": "packages/eslint-config-react-ts"
   },
-  "scripts": {},
+  "scripts": {
+    "lint:check": "pnpm exec eslint . --max-warnings 0",
+    "lint:fix": "pnpm exec eslint --fix ."
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^5.26.0",
