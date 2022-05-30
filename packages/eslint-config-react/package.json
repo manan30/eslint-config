@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config-elegante-react",
+  "version": "1.0.0",
+  "description": "Elegante eslint config for React applications",
+  "keywords": [
+    "eslint",
+    "config",
+    "react"
+  ],
+  "homepage": "https://github.com/manan30/eslint-config",
+  "bugs": {
+    "url": "https://github.com/manan30/eslint-config/issues",
+    "email": "mananjoshi1995@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Manan Joshi",
+    "email": "mananjoshi1995@gmail.com",
+    "url": "https://mananjoshi.me/"
+  },
+  "files": [
+    ".eslintrc.json",
+    "index.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/manan30/eslint-config.git",
+    "type": "git",
+    "directory": "packages/eslint-config-react"
+  },
+  "scripts": {},
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "prettier": "^2.6.2"
+  }
+}
