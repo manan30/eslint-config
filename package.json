@@ -12,7 +12,10 @@
     "format:fix": "turbo run format:fix"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.1",
+    "@commitlint/config-conventional": "^17.0.0",
     "eslint-config-elegante-base": "workspace:*",
+    "husky": "^8.0.1",
     "turbo": "latest"
   },
   "engines": {
