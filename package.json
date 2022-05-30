@@ -11,7 +11,8 @@
     "format:check": "turbo run format:check",
     "format:fix": "turbo run format:fix",
     "changeset": "pnpm exec changeset",
-    "changeset:version": "pnpm exec changeset version"
+    "changeset:version": "pnpm exec changeset version",
+    "changeset:publish": "pnpm exec changeset publish"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.1",
