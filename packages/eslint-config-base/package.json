@@ -30,7 +30,9 @@
   },
   "scripts": {
     "lint:check": "pnpm exec eslint . --max-warnings 0",
-    "lint:fix": "pnpm exec eslint --fix ."
+    "lint:fix": "pnpm exec eslint --fix .",
+    "format:check": "pnpm exec prettier --check .",
+    "format:fix": "pnpm exec prettier --write ."
   },
   "devDependencies": {
     "eslint": "^7.32.0 || ^8.2.0",

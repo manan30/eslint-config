@@ -7,7 +7,9 @@
   ],
   "scripts": {
     "lint:check": "turbo run lint:check",
-    "lint:fix": "turbo run lint:fix"
+    "lint:fix": "turbo run lint:fix",
+    "format:check": "turbo run format:check",
+    "format:fix": "turbo run format:fix"
   },
   "devDependencies": {
     "eslint-config-elegante-base": "workspace:*",
