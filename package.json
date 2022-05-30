@@ -10,7 +10,8 @@
     "lint:fix": "turbo run lint:fix",
     "format:check": "turbo run format:check",
     "format:fix": "turbo run format:fix",
-    "changeset": "pnpm exec changeset"
+    "changeset": "pnpm exec changeset",
+    "changeset:version": "pnpm exec changeset version"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.1",

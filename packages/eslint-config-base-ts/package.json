@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-elegante-base-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Elegante eslint config for Node + Typescript applications",
   "keywords": [
     "eslint",
