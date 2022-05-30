@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-elegante-base",
   "version": "1.0.0",
-  "description": "Elegante eslint config for Node JS applications",
+  "description": "Elegante eslint config for Node applications",
   "keywords": [
     "eslint",
     "config",

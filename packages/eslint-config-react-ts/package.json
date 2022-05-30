@@ -1,11 +1,12 @@
 {
-  "name": "eslint-config-elegante-react",
+  "name": "eslint-config-elegante-react-ts",
   "version": "1.0.0",
-  "description": "Elegante eslint config for React applications",
+  "description": "Elegante eslint config for React + Typescript applications",
   "keywords": [
     "eslint",
     "config",
-    "react"
+    "react",
+    "typescript"
   ],
   "homepage": "https://github.com/manan30/eslint-config",
   "bugs": {
@@ -26,10 +27,12 @@
   "repository": {
     "url": "https://github.com/manan30/eslint-config.git",
     "type": "git",
-    "directory": "packages/eslint-config-react"
+    "directory": "packages/eslint-config-react-ts"
   },
   "scripts": {},
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
     "eslint": "^7.32.0 || ^8.2.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
@@ -38,6 +41,8 @@
     "prettier": "^2.6.2"
   },
   "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.x",
+    "@typescript-eslint/parser": "5.x",
     "eslint": "7.x || 8.x",
     "eslint-config-prettier": "8.x",
     "eslint-plugin-prettier": "4.x",
